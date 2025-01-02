@@ -96,14 +96,6 @@ require("lazy").setup({
 	"tpope/vim-sleuth",
 
 	{
-		"olimorris/onedarkpro.nvim",
-		priority = 1000,
-		init = function()
-			vim.cmd.colorscheme("onedark_dark")
-		end,
-	},
-
-	{
 		"lewis6991/gitsigns.nvim",
 		opts = {
 			signs = {
@@ -556,8 +548,10 @@ require("lazy").setup({
 		},
 	},
 
-	require("tosha.plugins.autopairs"),
-	require("tosha.plugins.neo-tree"),
+	require("plugins.autopairs"),
+	require("plugins.neo-tree"),
+	require("plugins.rose-pine"),
+	-- require("plugins.onedark"),
 })
 
 -- The line beneath this is called `modeline`. See `:help modeline`
