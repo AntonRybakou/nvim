@@ -550,7 +550,7 @@ require("lazy").setup({
 
 	require("plugins.autopairs"),
 	require("plugins.neo-tree"),
-	require("plugins.rose-pine"),
+	require("plugins.catppuccin"),
 	-- require("plugins.onedark"),
 })
 
