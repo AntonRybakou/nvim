@@ -362,7 +362,8 @@ require("lazy").setup({
 				"css-lsp",
 				"eslint_d",
 				"prettierd",
-				"typescript-language-server",
+				-- "typescript-language-server",
+				"vtsls",
 				"tailwindcss-language-server",
 			})
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
